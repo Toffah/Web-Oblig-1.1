@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: teal;
+}
+
+.logo{
+    display: flex;
+    color: rgb(231, 230, 230);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font: icon;
+    font-size: 25px;
+    cursor: default;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+button{
+    padding: 9px 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color:  rgb(1, 107, 107);
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.hyperlinks{
+    color: blue;
+    text-decoration: underline;
+}
